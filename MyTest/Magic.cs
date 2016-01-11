@@ -17,5 +17,11 @@ namespace MyTest
 		{
 			return 47;
 		}
+
+		public string ReturnMyName()
+		{
+			return "Artsiom";
+		}
+
 	}
 }

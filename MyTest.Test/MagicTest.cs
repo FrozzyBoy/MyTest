@@ -24,5 +24,13 @@ namespace MyTest.Test
 			int result = magic.ReturnNumber();
 			Assert.Equal<int>(47, result);
 		}
+
+		[Fact]
+		public void OnReturnMyNameShouldBeArtsiom()
+		{
+			var magic = new Magic();
+			string name = magic.ReturnMyName();
+			Assert.Equal<string>("Artsiom", name);
+		}
 	}
 }
