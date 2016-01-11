@@ -32,5 +32,11 @@ namespace MyTest.Test
 			string name = magic.ReturnMyName();
 			Assert.Equal<string>("Artsiom", name);
 		}
+
+		[Fact]
+		public void NegativeTest()
+		{
+			throw new Exception();
+		}
 	}
 }
