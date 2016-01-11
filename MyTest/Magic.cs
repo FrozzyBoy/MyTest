@@ -12,5 +12,10 @@ namespace MyTest
 		{
 			return "Accio";
 		}
+
+		public int ReturnNumber()
+		{
+			return 47;
+		}
 	}
 }

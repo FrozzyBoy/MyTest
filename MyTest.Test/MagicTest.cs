@@ -16,5 +16,13 @@ namespace MyTest.Test
 			string castedSpell = magic.CastSpell();
 			Assert.Equal<string>("Accio", castedSpell);
 		}
+
+		[Fact]
+		public void OnReturnNumberShouldBe47()
+		{
+			var magic = new Magic();
+			int result = magic.ReturnNumber();
+			Assert.Equal<int>(47, result);
+		}
 	}
 }
